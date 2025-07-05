@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">MyPortfolio</h1>
+       <nav class="space-x-6">
+        <a href="/" class="text-gray-600 hover:text-indigo-600">Home</a>
+        <a href="/about" class="text-gray-600 hover:text-indigo-600">About</a>
+        <a href="/experience" class="text-gray-600 hover:text-indigo-600">Experience</a>
+        <a href="/contact" class="text-gray-600 hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-100 py-20">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-indigo-900">Hi, I'm Asmaa – Backend Developer</h2>
+      <p class="text-xl text-gray-700 max-w-xl mx-auto">I specialize in building scalable backend systems using Laravel, Golang, and PostgreSQL. I turn ideas into robust solutions.</p>
+      <a href="#projects" class="inline-block mt-8 bg-indigo-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-indigo-700 transition">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p class="text-gray-600 leading-relaxed">I’m a Senior Backend Developer with 7+ years of experience in PHP, Laravel, and Golang. I build systems that handle millions of requests and simplify complex processes.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-white p-6 shadow rounded">Laravel</div>
+        <div class="bg-white p-6 shadow rounded">Golang</div>
+        <div class="bg-white p-6 shadow rounded">PostgreSQL</div>
+        <div class="bg-white p-6 shadow rounded">Docker</div>
+        <div class="bg-white p-6 shadow rounded">Microservices</div>
+        <div class="bg-white p-6 shadow rounded">AWS</div>
+        <div class="bg-white p-6 shadow rounded">Git & CI/CD</div>
+        <div class="bg-white p-6 shadow rounded">API Development</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">Projects</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="font-bold text-xl mb-2">Asset Management System</h4>
+          <p class="text-gray-600">Built for Saudi government, managing over 200K assets with advanced tracking and reporting.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="font-bold text-xl mb-2">Pharmazone App</h4>
+          <p class="text-gray-600">A delivery and medical representative tracking system handling thousands of orders weekly.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded shadow">
+          <h4 class="font-bold text-xl mb-2">Tourism Booking System</h4>
+          <p class="text-gray-600">Developed a scalable API and admin panel for hotel & tour bookings in Egypt and UAE.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-indigo-100">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Let's Connect</h3>
+      <p class="text-gray-700 mb-6">Need a reliable developer for your next project? Let's build something great together.</p>
+      <a href="mailto:your.email@example.com" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-indigo-700 transition">Send Email</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 mt-10">
+    <div class="text-center text-gray-600">
+      © 2025 Asmaa Nusair. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
