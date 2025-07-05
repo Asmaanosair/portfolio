@@ -26,7 +26,7 @@ func main(){
 		mux.ServeHTTP(w, r)
 	})
 
-	http.ListenAndServe(":9094", handler)
+	http.ListenAndServe(":9090", handler)
 
 }
 func home (w http.ResponseWriter , r *http.Request){
