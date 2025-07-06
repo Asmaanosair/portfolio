@@ -31,6 +31,11 @@
 
   <!-- Contact Form + Info -->
   <section class="py-16 bg-white">
+    {{if .Message}}
+  <div class="mb-4 p-4 bg-green-100 text-green-800 border border-green-300 rounded">
+    {{.Message}}
+  </div>
+{{end}}
     <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10">
 
       <!-- Contact Form -->
